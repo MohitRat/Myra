@@ -1,0 +1,26 @@
+.follow {
+    padding: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.follow>p {font-size: 13px !important;letter-spacing: 2px;}
+.follow>h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.follow>.imgs {
+    display: flex;
+}
+
+.follow>.imgs>.img>img {
+    width: 100%;
+}
+
+.follow>.imgs>.img {
+    padding: 0 10px;
+}

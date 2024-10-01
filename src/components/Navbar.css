@@ -1,0 +1,47 @@
+.annoucement-bar {
+    text-align: center;
+    background-color: #333333;
+    color: #fafafa;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 8px 0;
+}
+.logo{
+    width: 10%;
+}
+.middle-nav{
+    width: 80%;
+}
+.hem{
+display: none;
+}
+nav.nav {
+    width: 100%;
+    padding: 18px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle-nav ul {
+    display: flex;
+    list-style: none;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    /* gap: 5%; */
+}
+.middle-nav ul li{
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-left: 21px; 
+    margin-right: 21px;
+}
+.icons {
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    font-size: 23px;
+}

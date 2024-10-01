@@ -1,0 +1,79 @@
+.Footer {
+    background: #1c1b1b;
+    color: #efefef;
+    display: flex;
+    padding: 80px;
+    justify-content: space-between;
+}
+
+.Footer>.fir {
+    flex-basis: 400px;
+}
+
+.Footer>.seco {flex: 0 1 auto;}
+
+.Footer>.thir {
+    flex: 0 1 auto;
+}
+
+.Footer>.fou {
+    flex-basis: 305px;
+    padding: 0 11px;
+}
+.Footer h3 {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.Footer .fir p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.Footer>.fou>p {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+.Footer ul li {
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    list-style: none;
+    line-height: 1.5;
+}
+.Footer .fou input[type="text"] {
+    width: 100%;
+    padding: 14px 14px;
+    border: 1px solid #dddddd;
+    background: transparent;
+    color: #efefef;
+}
+.Footer .fou input[type="text"]::placeholder {
+    color: #efefef;
+    font-size: 16px;
+}
+.Footer button {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 14px;
+    margin-top: 20px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    background: #fff;
+}
+.Footer .fir p:last-child::after {
+    content: "+";
+    padding-left: 10px;
+    font-size: 20px;
+    transition: color 0.3s; /* Optional for a smooth transition */
+    cursor: pointer;
+}
+
+.Footer .fir p:last-child:hover::after {
+    content: "--";
+    /* color: red; */
+    font-size: 20px;
+}

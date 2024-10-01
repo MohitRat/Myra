@@ -1,0 +1,38 @@
+/* Arrow.css */
+.slick-arrow {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff  !important;
+    background-color: #000 !important;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .slick-prev {
+    left: 10px;
+    background-color: white !important;
+    color: #000 !important;
+  }
+  
+  .slick-next {
+    right: 10px;
+    background-color: white  !important;
+    color: #000  !important;
+  }
+  
+  .slick-prev:hover, .slick-next:hover {
+    background-color: #333;
+  }
+  .slick-arrow.slick-prev {
+    background-color: #000 !important;
+    color: red !important;
+}
+.slick-arrow.slick-next {
+    background: #000 !important;
+}

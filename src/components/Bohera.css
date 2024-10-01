@@ -1,0 +1,83 @@
+.king {
+    display: flex;
+    padding: 0 80px;
+    column-gap: 10px;
+    /* position: relative; */
+}
+.k{
+    position: relative;
+    text-align: center;
+}
+.k a{
+    background: transparent;
+    text-decoration: underline;
+    font-size: 16px;
+    line-height: 2;
+    padding: 10px 0;
+    cursor: pointer;
+    font-family: sans-serif;
+    text-underline-offset: 4px;
+    letter-spacing: 2px;
+}
+
+.in {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 44px;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+
+}
+.img-text {
+    padding: 50px 80px;
+    text-align: center;
+}
+.img-text>p {
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-family: sans-serif;
+}
+.img-text button {
+    padding: 15px 30px;
+    border: none;
+    background: black;
+    color: white;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.img-cont {
+    padding: 0 80px;
+    width: 100%;
+    max-width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.im img{
+    width: 100%;
+}
+.img-cont .im:nth-child(2){
+    margin-top: 100px;
+}
+.sec {
+    padding: 50px 80px;
+    text-align: center;
+}
+.sec h1 {
+    font-size: 25px;
+    line-height: 22px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+.sec p {
+    padding: 10px 0;
+}
+.king.moh>.k>.in {
+    font-size: 22px !important;
+    bottom: 16% !important;
+    top: auto;
+}

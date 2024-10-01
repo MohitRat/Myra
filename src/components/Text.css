@@ -1,0 +1,119 @@
+.text-container {
+    text-align: center;
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 40px 0;
+    font-family: "Tenor Sans", sans-serif;
+}
+.text-container h3 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    padding-bottom: 16px;
+    letter-spacing: 1px;
+}
+.text-container h1 {
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.text-container p{
+    font-size: 14px;
+}
+.text-container a {
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 15px;
+    background: #000;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+.cards{
+    display: flex;
+    padding: 0 15px;
+}
+.cards .card{
+    padding: 15px;
+}
+.cards .card img{
+    width: 100%;
+    display: block;
+}
+.card{
+    position: relative;
+}
+.inner-content {
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+}
+.card .inner-content a{
+    font-size: 14px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 26px;
+    background: #000;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+.card>.inner-content>p{
+    font-size: 22px !important;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+.text-1 {
+    text-align: center;
+    padding:50px 80px;
+}
+.text-1 h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 3;
+}
+.text-1 p{
+    padding-bottom: 30px;
+}
+
+.text-1 .btns button{
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+}
+.text-1 .btns button:nth-child(2){
+    margin-left: 45px;
+}
+.active{
+    border-bottom: 2px solid black !important;
+    
+}
+.view{
+    text-align: center;
+    padding: 50px 0;
+}
+.view p {
+    font-size: 15px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 550;
+    letter-spacing: 2px;
+    color: #1c1b1b;
+}
+.view button {
+    padding: 15px 30px;
+    background: black;
+    color: white;
+    border: none;
+    letter-spacing: 3px;
+    font-size: 11px;
+}

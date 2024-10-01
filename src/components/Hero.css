@@ -1,0 +1,36 @@
+/* styles.css */
+.mob{
+  display: none;
+}
+.slider-container {
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+  
+  .slick-slide img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container while maintaining aspect ratio */
+  }
+  .slick-dots {
+    position: absolute !important;
+    display: block;
+    right: 16px !important;
+    padding: 0;
+    bottom: 17px !important;
+    margin: 0;
+    list-style: none;
+    text-align: right  !important;
+}
+/* styles.css */
+
+.slick-dots li button:before {
+    color: #fff !important; 
+  }
+  
+  /* Active dot color */
+  .slick-dots .slick-active button:before {
+    color: #fff  !important;
+  }
+  
